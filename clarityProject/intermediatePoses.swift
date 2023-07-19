@@ -11,7 +11,8 @@ struct intermediatePoses: View {
     var body: some View {
         ZStack {
             Image("intermediatePoses")
-                .resizable(resizingMode: .stretch)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
                 .ignoresSafeArea()
             VStack {
                 Text("Welcome to intermediate Poses.")

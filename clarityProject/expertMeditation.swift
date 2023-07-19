@@ -11,7 +11,7 @@ struct expertMeditation: View {
     var body: some View {
         ZStack {
             Image("expertMeditation")
-                .resizable(resizingMode: .stretch)
+                .resizable()
                 .aspectRatio(contentMode: .fill)
                 .ignoresSafeArea()
             VStack {

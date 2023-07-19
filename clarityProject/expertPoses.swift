@@ -11,7 +11,8 @@ struct expertPoses: View {
     var body: some View {
         ZStack {
             Image("expertPoses")
-                .resizable(resizingMode: .stretch)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
                 .ignoresSafeArea()
             VStack {
                 Text("Welcome to expert Poses.")

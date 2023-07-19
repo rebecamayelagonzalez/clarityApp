@@ -12,13 +12,14 @@ struct beginnerView: View {
         NavigationStack {
             ZStack {
                 Image("beginnerMain")
+                    .aspectRatio(contentMode: .fill)
                 VStack(spacing: 10.0) {
                     Text("Beginner")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         
                     NavigationLink(destination: beginnerMeditation()) {
-                        Text("Meditation") .foregroundColor(Color.black)
+                        Text("Videos") .foregroundColor(Color.black)
                             .padding(.all, 10.0)
                             .frame(width: 164.0)
                             .cornerRadius(/*@START_MENU_TOKEN@*/40.0/*@END_MENU_TOKEN@*/)

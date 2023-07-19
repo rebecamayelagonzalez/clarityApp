@@ -11,7 +11,7 @@ struct intermediateMeditation: View {
     var body: some View {
         ZStack {
             Image("intermediatemeditation 1")
-                .resizable(resizingMode: .stretch)
+                .resizable()
                 .aspectRatio(contentMode: .fill)
                 .ignoresSafeArea()
             VStack {

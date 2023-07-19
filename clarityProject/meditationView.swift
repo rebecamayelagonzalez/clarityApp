@@ -11,9 +11,11 @@ struct meditationView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Image("backupgGreen1")
+                Image("meditationPage")
                     .resizable(resizingMode: .stretch)
                     .ignoresSafeArea()
+                    
+                
                 
                 VStack {
                     Text("Choose Your Level")

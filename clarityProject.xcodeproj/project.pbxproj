@@ -12,7 +12,6 @@
 		BD36EB482A67210100D12403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD36EB472A67210100D12403 /* Assets.xcassets */; };
 		BD36EB4B2A67210100D12403 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD36EB4A2A67210100D12403 /* Preview Assets.xcassets */; };
 		BD49FDFA2A6726430086BA86 /* meditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49FDF92A6726430086BA86 /* meditationView.swift */; };
-		BD49FDFC2A6726D80086BA86 /* posesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49FDFB2A6726D80086BA86 /* posesView.swift */; };
 		BD49FDFE2A6729BB0086BA86 /* hydrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49FDFD2A6729BB0086BA86 /* hydrationView.swift */; };
 		BD49FE002A672D250086BA86 /* affirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49FDFF2A672D240086BA86 /* affirmationView.swift */; };
 		BDB2FDE82A68307E001086EB /* intermediateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2FDE72A68307E001086EB /* intermediateView.swift */; };
@@ -33,7 +32,6 @@
 		BD36EB472A67210100D12403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD36EB4A2A67210100D12403 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD49FDF92A6726430086BA86 /* meditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meditationView.swift; sourceTree = "<group>"; };
-		BD49FDFB2A6726D80086BA86 /* posesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = posesView.swift; sourceTree = "<group>"; };
 		BD49FDFD2A6729BB0086BA86 /* hydrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hydrationView.swift; sourceTree = "<group>"; };
 		BD49FDFF2A672D240086BA86 /* affirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = affirmationView.swift; sourceTree = "<group>"; };
 		BDB2FDE72A68307E001086EB /* intermediateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intermediateView.swift; sourceTree = "<group>"; };
@@ -89,7 +87,6 @@
 				BDB2FDEB2A6830ED001086EB /* expertView.swift */,
 				BDB2FDF52A683481001086EB /* expertMeditation.swift */,
 				BDB2FDF72A6834B9001086EB /* expertPoses.swift */,
-				BD49FDFB2A6726D80086BA86 /* posesView.swift */,
 				BD49FDFD2A6729BB0086BA86 /* hydrationView.swift */,
 				BD49FDFF2A672D240086BA86 /* affirmationView.swift */,
 				BD36EB472A67210100D12403 /* Assets.xcassets */,
@@ -189,7 +186,6 @@
 				BD36EB442A67210100D12403 /* clarityProjectApp.swift in Sources */,
 				BD49FE002A672D250086BA86 /* affirmationView.swift in Sources */,
 				BD49FDFE2A6729BB0086BA86 /* hydrationView.swift in Sources */,
-				BD49FDFC2A6726D80086BA86 /* posesView.swift in Sources */,
 				BDB2FDE82A68307E001086EB /* intermediateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

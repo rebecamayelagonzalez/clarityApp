@@ -12,7 +12,7 @@ struct expertView: View {
         NavigationStack {
             ZStack {
                 Image("expertMain")
-                    .resizable(resizingMode: .stretch)
+                    .resizable()
                     .aspectRatio(contentMode: .fill)
                     .ignoresSafeArea()
                 VStack(spacing: 10.0) {
@@ -21,7 +21,7 @@ struct expertView: View {
                         .fontWeight(.bold)
                         .foregroundColor(Color.white)
                     NavigationLink(destination: expertMeditation()) {
-                        Text("Meditation")
+                        Text("Videos")
                             .foregroundColor(Color.black)
                                 .padding(.all, 10.0)
                                 .frame(width: 164.0)

@@ -12,12 +12,13 @@ struct intermediateView: View {
         NavigationStack {
             ZStack {
                 Image("backupGreen2")
+                    .aspectRatio(contentMode: .fill)
                 VStack(spacing: 10.0) {
                     Text("Intermediate")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                     NavigationLink(destination: intermediateMeditation()) {
-                        Text("Meditation")
+                        Text("Videos")
                             .foregroundColor(Color.black)
                                 .padding(.all, 10.0)
                                 .frame(width: 164.0)

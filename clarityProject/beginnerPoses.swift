@@ -11,7 +11,7 @@ struct beginnerPoses: View {
     var body: some View {
         ZStack {
             Image("backupBlue2")
-                .resizable(resizingMode: .stretch)
+                .resizable()
                 .aspectRatio(contentMode: .fill)
                 .ignoresSafeArea()
             VStack {
