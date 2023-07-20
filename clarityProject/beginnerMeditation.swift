@@ -14,6 +14,7 @@ struct beginnerMeditation: View {
                 Image("beginnerMeditation")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
+                    .padding(.trailing, 90.0)
                     .ignoresSafeArea()
                 VStack {
                     Text("Welcome to beginner Meditation.")
@@ -40,7 +41,7 @@ struct beginnerMeditation: View {
                 .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.white/*@END_MENU_TOKEN@*/)
                 .cornerRadius(/*@START_MENU_TOKEN@*/40.0/*@END_MENU_TOKEN@*/)
                     
-                    Link("Beginners Guide to Meditation", destination: URL(string: "https://www.youtube.com/watch?v=Q-L2ZKYMsag")!)
+                    Link("Beginners Guide to Meditation", destination: URL(string: "https://www.youtube.com/watch?v=KQOAVZew5l8&list=PLF_zWBajWWfYrquAtSi_cnSSNjYQPtqN1&index=7&t=1s")!)
                         .padding(.all, 10.0)
                         .foregroundColor(Color.black)
                         .frame(width: 164.0)
@@ -49,7 +50,7 @@ struct beginnerMeditation: View {
                 .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.white/*@END_MENU_TOKEN@*/)
                 .cornerRadius(/*@START_MENU_TOKEN@*/40.0/*@END_MENU_TOKEN@*/)
                     
-                    Link("Open a meditation", destination: URL(string: "https://www.youtube.com/watch?v=Q-L2ZKYMsag")!)
+                    Link("Ten Minute Guided Meditation", destination: URL(string: "https://www.youtube.com/watch?v=ez3GgRqhNvA&list=PLF_zWBajWWfYrquAtSi_cnSSNjYQPtqN1&index=5&t=8s")!)
                         .padding(.all, 10.0)
                         .foregroundColor(Color.black)
                         .frame(width: 164.0)

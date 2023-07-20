@@ -13,6 +13,7 @@ struct expertPoses: View {
             Image("expertPoses")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
+                .padding(.trailing, 50.0)
                 .ignoresSafeArea()
             VStack {
                 Text("Welcome to expert Poses.")
@@ -21,6 +22,7 @@ struct expertPoses: View {
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
                     .frame(width: 400.0)
+                Image("poses4")
             }
         }
     }

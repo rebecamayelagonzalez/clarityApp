@@ -13,6 +13,7 @@ struct intermediatePoses: View {
             Image("intermediatePoses")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
+                .padding(.trailing, 50.0)
                 .ignoresSafeArea()
             VStack {
                 Text("Welcome to intermediate Poses.")
@@ -21,6 +22,8 @@ struct intermediatePoses: View {
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
                     .frame(width: 400.0)
+                Image("poses2")
+                    .padding(.horizontal)
             }
         }
     }

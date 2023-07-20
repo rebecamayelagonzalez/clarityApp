@@ -13,6 +13,7 @@ struct beginnerView: View {
             ZStack {
                 Image("beginnerMain")
                     .aspectRatio(contentMode: .fill)
+                    .padding(.leading, 40.0)
                 VStack(spacing: 10.0) {
                     Text("Beginner")
                         .font(.largeTitle)

@@ -13,6 +13,7 @@ struct beginnerPoses: View {
             Image("backupBlue2")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
+                .padding(.trailing, 90.0)
                 .ignoresSafeArea()
             VStack {
                 Text("Welcome to beginner Poses.")
@@ -21,6 +22,10 @@ struct beginnerPoses: View {
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
                     .frame(width: 400.0)
+                Image("poses1")
+                    
+                    
+                    
             }
         }
     }

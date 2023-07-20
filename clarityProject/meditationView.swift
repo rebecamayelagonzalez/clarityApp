@@ -12,7 +12,6 @@ struct meditationView: View {
         NavigationStack {
             ZStack {
                 Image("meditationPage")
-                    .resizable(resizingMode: .stretch)
                     .ignoresSafeArea()
                     
                 

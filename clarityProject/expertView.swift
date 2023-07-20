@@ -14,6 +14,7 @@ struct expertView: View {
                 Image("expertMain")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
+                    .padding(.trailing, 40.0)
                     .ignoresSafeArea()
                 VStack(spacing: 10.0) {
                     Text("Expert")
