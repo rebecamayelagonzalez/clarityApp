@@ -13,10 +13,7 @@ struct hydrationView: View {
     
     var body: some View {
         ZStack {
-            Image("posesPage")
-                .resizable(resizingMode: .stretch)
-            aspectRatio(contentMode: .fit)
-                .ignoresSafeArea()
+         
             
             VStack {
                Text("Hydration Tracker")
