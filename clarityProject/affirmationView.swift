@@ -46,7 +46,7 @@ struct affirmationView: View {
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
                         .padding(.bottom, 70.0)
-                    Button("Click for new affirmations")
+                    Button("Click for new affirmations!")
                     {
                         choiceOne.toggle()
                         firstAff = pickFirstButton()
