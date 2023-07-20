@@ -31,7 +31,7 @@ struct intermediateMeditation: View {
             .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.white/*@END_MENU_TOKEN@*/)
             .cornerRadius(/*@START_MENU_TOKEN@*/40.0/*@END_MENU_TOKEN@*/)
                 
-                Link("10 MIN Guided Meditation To Clear Your Mind", destination: URL(string: "https://www.youtube.com/watch?v=uTN29kj7e-w&list=PLF_zWBajWWfYrquAtSi_cnSSNjYQPtqN1&index=4")!)
+                Link("10 MIN Guided Meditation", destination: URL(string: "https://www.youtube.com/watch?v=uTN29kj7e-w&list=PLF_zWBajWWfYrquAtSi_cnSSNjYQPtqN1&index=4")!)
                     .padding(.all, 10.0)
                     .foregroundColor(Color.black)
                     .frame(width: 164.0)

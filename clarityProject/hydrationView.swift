@@ -13,21 +13,24 @@ struct hydrationView: View {
     
     var body: some View {
         ZStack {
-         
-            
+            Image("beginnerMain")
+                .aspectRatio(contentMode: .fill)
+                .padding(.leading, 40.0)
+                
             VStack {
                Text("Hydration Tracker")
                      .font(.largeTitle)
                      .fontWeight(.bold)
-                 .foregroundColor(Color.white)
+                     .foregroundColor(Color.black)
                  .padding([.leading, .bottom, .trailing], 50.0)
         
-               Text ("Hydration is one of the most important things in order to maintain a happy and healthy body. Staying hydrated can: increase energy levels; prevent headaches; maximize physical performance and improve brain functions. The minimum amount of water we should drink is about 8 cups (64 oz) a day.")
-                 .fontWeight(.semibold)
-                 .foregroundColor(Color.white)
+                Text ("Hydration is one of the most important things in order to maintain a happy and healthy body. Staying hydrated can: increase energy levels; prevent headaches; maximize physical performance and improve brain functions. The minimum amount of water we should drink is about 8 cups (64 oz) a day.")
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                 .foregroundColor(Color.black)
                  .multilineTextAlignment(.center)
                  .padding([.leading, .bottom, .trailing], 50.0)
-                 .frame(width: 500.0)
+                 .frame(width: 400.0)
                 
                Picker(selection: $selectionIndex, label: Text("Picker"), content: {
                  Text("1").tag(1)
